@@ -3,13 +3,7 @@
 \*-----------------------------------*/
 
 
- @font-face {
-  font-family: 'IntegralCF-Bold';
-  src: url('./fonts/Fontspring-DEMO-integralcf-bold.woff2') format('woff2'),
-       url('./fonts/Fontspring-DEMO-integralcf-bold.woff') format('woff');
-  font-weight: bold;
-  font-style: normal;
- }
+
 /*-----------------------------------*\
   #CUSTOM PROPERTY
 \*-----------------------------------*/
@@ -36,9 +30,35 @@
   /**
    * typography
    */
+   @font-face {
+    font-family: 'Bebas Neue';
+    src: url('/fonts/Bebas_Neue/BebasNeue-Regular.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Bebas Neue';
+    src: url('/fonts/Bebas_Neue/BebasNeue-Regular.ttf') format('ttf');
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Rowdies';
+    src: url('/fonts/Rowdies/Rowdies-Bold.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+  }
 
-  --ff-philosopher: 'IntegralCF-Bold', sans-serif;
-  --ff-poppins: 'IntegralCF-Bold', sans-serif;
+  @font-face {
+    font-family: 'Rowdies';
+    src: url('/fonts/Rowdies/Rowdies-Regular.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+  }
+  --ff-philosopher: 'Bebas Neue', sans-serif;
+  --ff-poppins: 'Rowdies-Bold', sans-serif;
 
   --fs-1: 4rem;
   --fs-2: 3.2rem;
