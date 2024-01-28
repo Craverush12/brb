@@ -427,9 +427,10 @@ background-color: aliceblue }
 .navbar-list { margin-block-end: 40px; }
 
 .navbar-link {
-  color: var(--charcoal);
-  padding-block: 8px;
-  line-height: 1.5;
+  
+  padding-block: 2px;
+  line-height: 2;
+  font-size: xx-large;
   transition: var(--transition-1);
 }
 
