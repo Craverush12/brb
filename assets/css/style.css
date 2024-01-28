@@ -514,7 +514,11 @@ background-color: aliceblue }
     box-shadow: none;
     display: block;
   }
-
+  .navbar-list {
+    border-radius: 20px;
+    display: block; /* Display navbar items as a block on smaller screens */
+    text-align: right; /* Align text to the right for smaller screens */
+  }
   .navbar-item .navbar-list1 .navbar-item {
     width: 100%;
     text-align: left;
